@@ -19,7 +19,7 @@
 .DS_Store
 
 # RubyMine project files
-.idea
+.idea/
 
 # Ignore application configuration
 /config/application.yml
@@ -29,3 +29,6 @@
 
 # Ignore prebuilt assets
 /public/assets
+
+# Environment variables
+.env

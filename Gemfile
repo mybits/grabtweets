@@ -6,13 +6,12 @@ gem 'coffee-rails'
 gem 'uglifier'
 gem 'jquery-rails'
 gem 'jbuilder'
-
 gem 'mongoid'
-gem 'twitter'
 
 
 group :development, :test do
   gem 'rspec-rails'
+  gem 'dotenv-rails'
 end
 
 group :test do
@@ -23,3 +22,4 @@ group :test do
   gem 'capybara'
 end
 
+gem 'twitter'
